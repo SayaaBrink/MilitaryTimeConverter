@@ -14,6 +14,5 @@ def convert_to_military (time, time_of_day) :
         return str(new_time)
     else :
         return time
-   
-# print(standard_time + ' in military time is:\n' + convert_to_military(standard_time, am_pm))
+
 print(f'{standard_time} in military time is:\n {convert_to_military(standard_time, am_pm)}')
